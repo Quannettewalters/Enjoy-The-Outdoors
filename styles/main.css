@@ -5,6 +5,8 @@ body {
 
 .navbar {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    background-color: rgba(74, 102, 71, 0.461);
 }
 
 .navbar-brand {
@@ -21,7 +23,7 @@ body {
 
 .nav-link:hover {
     color: #e9c46a;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer {
     position: fixed;
@@ -46,4 +48,3 @@ h1 {
     font-family: 'Arial', sans-serif;
     text-align: center;
 }
-
