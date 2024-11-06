@@ -41,3 +41,9 @@ h1 {
     text-align: center;
     margin-top: 2rem;
 }
+.filters {
+    margin-bottom: 2rem;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
