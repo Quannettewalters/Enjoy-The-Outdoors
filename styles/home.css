@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: rgba(247, 250, 246, 0.65);
+    background-color: rgba(0, 1, 0, 0.803);
     z-index: 1000;
 }
 
@@ -37,16 +37,10 @@ body {
     }
 }
 
-.navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgba(33, 67, 33, 0.731) !important;
-    font-family: ;
-}
 
 .nav-link {
     font-weight: 500;
-    color: #264653;
+    color: #2fc173;
     transition: color 0.3s ease;
 }
 
