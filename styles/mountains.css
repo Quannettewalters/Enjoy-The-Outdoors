@@ -1,35 +1,43 @@
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: rgba(74, 102, 71, 0.461);
-    z-index: 1000;
+body {
+  font-family: "Arial", sans-serif;
 }
-
-.navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgba(33, 67, 33, 0.731) !important;
-    font-family: ;
+.navbar {
+  position: absolute-bottom;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: rgba(247, 250, 246, 0.65);
+  z-index: 1000;
 }
 
 .nav-link {
-    font-weight: 500;
-    color: #264653;
-    transition: color 0.3s ease;
+  font-weight: 500;
+  color: #264653;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #e9c46a;
-    text-decoration: none;
+  color: #e9c46a;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 30rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
 footer {
-    position: absolute-bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: rgb(15, 14, 14);
-    height: 100%;
+  color: #e9c46a;
+  background-color: rgba(74, 102, 71, 0.461);
+  text-align: center;
+  height: 4rem;
+  width: 100%;
 }
