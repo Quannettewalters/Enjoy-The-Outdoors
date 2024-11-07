@@ -1,5 +1,9 @@
 body {
-  font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 .navbar {
   position: absolute-bottom;
@@ -35,9 +39,5 @@ h1 {
   margin-top: 2rem;
 }
 footer {
-  color: #e9c46a;
-  background-color: rgba(74, 102, 71, 0.461);
-  text-align: center;
-  height: 4rem;
-  width: 100%;
+    color: #e9c46a;
 }

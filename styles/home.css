@@ -1,6 +1,10 @@
 body {
-    font-family: 'Arial', sans-serif;
- }
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
  .back-video {
     position: absolute;
     right: 0;
@@ -59,7 +63,3 @@ h1 {
 }
 footer {
     color: #e9c46a;
-background-color: rgba(74, 102, 71, 0.461);
-text-align: center;
-height: 4rem;
-}
