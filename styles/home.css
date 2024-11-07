@@ -6,16 +6,31 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
-    width: 100%;
+    height: 100%;
 }
 .navbar {
-    position: absolute;
+    position: absolute-bottom;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: rgba(74, 102, 71, 0.461);
+    background-color: rgba(247, 250, 246, 0.65);
     z-index: 1000;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
 }
 
 .navbar-brand {
@@ -35,30 +50,16 @@ body {
     color: #e9c46a;
     text-decoration: none;
 }
-footer {
-    position: absolute-bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: rgb(15, 14, 14);
-    height: 100%;
-    background-color: rgba(74, 102, 71, 0.461)
+}
 
-}
-.card {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    width: 30rem;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: #fff;
-    border-radius: 8px;
-}
+
 h1 {
     text-align: center;
     margin-top: 2rem;
 }
-.filters {
-    margin-bottom: 2rem;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
+footer {
+    color: #e9c46a;
+background-color: rgba(74, 102, 71, 0.461);
+text-align: center;
+height: 4rem;
 }
