@@ -1,29 +1,103 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(6, 6, 29);
 }
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: rgba(247, 250, 246, 0.65);
   z-index: 1000;
 }
 
-.nav-link {
-  font-weight: 500;
-  color: #264653;
+.navbar .nav-link {
+  font-size: 1.1rem;
+  color: #fff;
   transition: color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+
+}
+.navbar-nav .nav-item .nav-link {
+  color: #bdb9b9 !important;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+
 }
 
-.nav-link:hover {
-  color: #e9c46a;
-  text-decoration: none;
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../my_images/mountain.mp4');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.hero h1, .hero p, .hero .btn-primary {
+  animation: fadeInUp 1s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+
+  .hero p {
+      font-size: 1rem;
+  }
 }
 
 .card {
@@ -31,13 +105,36 @@ body {
   width: 30rem;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #fff;
+  background-color: rgba(112, 109, 103, 0.235);
   border-radius: 8px;
+  color: white;
 }
-h1 {
-  text-align: center;
-  margin-top: 8rem;
+
+select.custom-select {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 40px 10px 20px; /* Adjust padding to make space for the arrow */
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #f4f2f0;
+  background-color: #292625ae;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  border-color: rgb(25, 25, 80);
+  appearance: none; /* Remove default browser styling */
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
 footer {
-    color: #e9c46a;
+  background-color: #2c3e50;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  font-size: 1rem;
+}
+
+footer p {
+  margin: 0;
 }
