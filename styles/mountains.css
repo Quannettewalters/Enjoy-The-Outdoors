@@ -114,7 +114,7 @@ select.custom-select {
   display: inline-block;
   width: 100%;
   max-width: 300px;
-  padding: 10px 40px 10px 20px; /* Adjust padding to make space for the arrow */
+  padding: 10px 40px 10px 20px;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   color: #f4f2f0;
