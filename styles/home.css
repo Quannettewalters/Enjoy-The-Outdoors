@@ -13,7 +13,7 @@ body {
     height: 100%;
 }
 .navbar {
-    position: absolute-bottom;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -47,7 +47,6 @@ body {
 .nav-link:hover {
     color: #e9c46a;
     text-decoration: none;
-}
 }
 
 
