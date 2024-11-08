@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+i {
+    font-size: 80px;
+    margin: 0 30px;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+i:hover {
+    transform: scale(1.2);
+    color: #3498db;
+}
