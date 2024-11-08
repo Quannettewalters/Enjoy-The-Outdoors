@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         const m = mountainsArray[inputGroupSelect.selectedIndex - 1].coords;
         getSunsetForMountain(m.lat, m.lng).then(data => {
-            results.innerHTML += `Sunset: ${data.results.sunset}`;
-            results.innerHTML += `<br>Sunrise: ${data.results.sunrise}`;
+            results.innerHTML += `Sunrise: ${data.results.sunrise}`;
+            results.innerHTML += `<br>Sunset: ${data.results.sunset}`;
         });
     
 
