@@ -1,31 +1,32 @@
 /* Global Styles */
 body {
   font-family: "Arial", sans-serif;
-  background-image: url("../my_images/flowers-3112055_1920.jpg");
+  /* background-image: url("../my_images/flowers-3112055_1920.jpg"); */
+  background-color: #b68336;
   margin: 0;
   padding: 0;
   color: #f6f2f2;
   background-repeat: repeat;
 }
 
-/* Navbar */
 .navbar {
-  background-color: rgba(244, 248, 244, 0.803) !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+   background-color: rgba(2, 2, 2, 0.512) !important;
 }
 
 
 .navbar-nav .nav-item .nav-link {
-  color: #010101 !important; /* White text for navbar links */
+  color: #bdb9b9 !important;
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 20px;
   transition: color 0.3s ease;
+  font-size: 1.1rem;
+
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ff9800 !important; /* Orange highlight on hover */
+  color: #ff6f61 !important
 }
 
 /* Page Header */
@@ -53,6 +54,13 @@ header p {
 p.lead.text-muted {
   color: #f6f2f2 !important;
 }
+.btn-primary {
+  background-color: #ff6f61;
+}
+
+.btn-primary:hover {
+  background-color: rgb(52, 51, 51);
+} 
 /* Results Section */
 #results {
   display: grid;
@@ -111,6 +119,7 @@ footer p {
     padding: 15px;
   }
 
+  
   #results {
     grid-template-columns: 1fr;
   }
