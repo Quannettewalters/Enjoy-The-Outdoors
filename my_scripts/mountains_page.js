@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
             results.innerHTML += `Sunset: ${data.results.sunset}`;
             results.innerHTML += `<br>Sunrise: ${data.results.sunrise}`;
         });
-
     
 
     });//end change
