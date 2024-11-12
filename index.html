@@ -22,6 +22,7 @@
 
 <body>
 
+    <!-- navigation bar from bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -39,7 +40,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="mountains.html">Mountains</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active"> <!-- setting active to the current page-->
                         <a class="nav-link" href="parks.html">Parks</a>
                     </li>
                 </ul>
@@ -47,10 +48,13 @@
         </div>
     </nav>
 
+    <!-- creating a hero image on the top of the webpage -->
     <div class="hero">
-        <video autoplay loop muted playsinline class="back-video">
+        <video autoplay loop muted playsinline class="back-video"> <!-- adding a video that plays automatically in a loop and on mute.-->
             <source src="./my_images/homevideo.mp4" type="video/mp4">
         </video>
+
+        <!-- creating a text over the hero image -->
         <div class="overlay">
             <h1>Welcome to Q's Quest</h1>
             <p>Your Gateway to Outdoor Adventure</p>
@@ -58,6 +62,7 @@
         </div>
     </div>
 
+    <!-- adding a separate container for the paragraph below the video  -->
     <div class="container mt-5">
         <h2>Discover New Adventures</h2>
         <p>At Q's Quest, we believe the world is full of incredible places waiting to be explored. Whether you're an
@@ -65,6 +70,7 @@
             and inspiration to help you discover new trails, hidden gems, and unforgettable experiences.</p>
     </div>
 
+    <!-- bootstrap footer  -->
     <footer class="bg-dark text-white py-3 mt-5">
         <div class="container text-center">
             <p>&copy; 2024 Q's Quest. All rights reserved.</p>

@@ -1,3 +1,4 @@
+/* universal style for this page  */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* setting the background and text color for the page  */
 body {
   background-color: #f4f4f9;
   color: #333;
