@@ -39,6 +39,11 @@ body {
     font-weight: bold;
 }
 
+/* 
+  keyframe animation to 
+  fade in the links 
+  and icons 
+*/
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -50,6 +55,10 @@ body {
     }
 }
 
+/* 
+  keyframe animation to 
+  bounce the icons 
+*/
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -62,6 +71,10 @@ body {
     }
 }
 
+/* 
+  class to add a floating image 
+  to the page 
+*/
 .floating-image {
     position: absolute;
     opacity: 0.7;
@@ -75,6 +88,10 @@ body {
     opacity: 1;
 }
 
+/* 
+  classes to position the 
+  floating images 
+*/
 .top-left {
     top: -100px;
     left: -120px;
@@ -119,6 +136,10 @@ body {
     transform: translateX(-50%);
 }
 
+/* 
+  add animation delays to the 
+  links and icons 
+*/
 .icon-link:nth-child(1) {
     animation-delay: 0.5s;
 }
@@ -130,6 +151,11 @@ body {
 .icon-link:nth-child(3) {
     animation-delay: 1.5s;
 }
+
+/* 
+  style for the background video 
+  on this page 
+*/
 .back-video {
     position: absolute;
     top: 0;
@@ -139,6 +165,11 @@ body {
     object-fit: cover;
     z-index: -1;
   }
+
+/* 
+  style for the footer 
+  on all pages 
+*/
 footer {
     background-color: #2c3e505e;
     text-align: center;
