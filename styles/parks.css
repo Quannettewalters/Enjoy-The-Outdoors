@@ -1,8 +1,4 @@
-/*************  ✨ Codeium Command 🌟  *************/
 /* Global Styles */
-
-/* Styles for the body element */
-
 body {
   font-family: "Arial", sans-serif;
   /* background-image: url("../my_images/flowers-3112055_1920.jpg"); */
@@ -13,7 +9,6 @@ body {
   background-repeat: repeat;
 }
 
-/* Styles for the navigation bar, ensuring it remains fixed at the top of the page */
 .navbar {
   position: fixed;
   top: 0;
@@ -22,7 +17,6 @@ body {
   z-index: 1000;
 }
 
-/* Styles for the links in the navigation bar */
 .navbar .nav-link {
   font-size: 1.1rem;
   color: #fff;
@@ -30,26 +24,22 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 20px;
-
 }
 .navbar-nav .nav-item .nav-link {
   color: #bdb9b9 !important;
   padding: 10px 20px;
   font-size: 1.1rem;
-
 }
 
-/* Styles for the hero element, which contains the background video and overlay */
 .hero {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url('../my_images/parks.mp4');
+  background-image: url("../my_images/parks.mp4");
   background-size: cover;
   background-position: center;
 }
 
-/* Styles for the video element inside the hero element */
 .hero video {
   position: absolute;
   top: 0;
@@ -60,7 +50,6 @@ body {
   filter: brightness(50%);
 }
 
-/* Styles for the overlay element inside the hero element */
 .hero .overlay {
   position: absolute;
   top: 50%;
@@ -75,52 +64,44 @@ body {
   margin: 0 auto;
 }
 
-/* Styles for the heading one element inside the hero element */
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 15px;
   letter-spacing: 2px;
 }
 
-/* Styles for the paragraph element inside the hero element */
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
-/* Animation for the hero element. Fades in from the bottom, with a small delay. */
 @keyframes fadeInUp {
   0% {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   100% {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* 
-  Delay is set to 0.5s to allow the video to load before the text appears.
-*/
-.hero h1, .hero p, .hero .btn-primary {
+.hero h1,
+.hero p,
+.hero .btn-primary {
   animation: fadeInUp 1s ease-in-out;
   animation-delay: 0.5s;
 }
 
-/* 
-  Adjust font sizes for mobile devices.
-*/
 @media screen and (max-width: 767px) {
   .hero h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .hero p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
-
 
 .btn-primary {
   background-color: #e29207;
@@ -128,7 +109,7 @@ body {
 
 .btn-primary:hover {
   background-color: rgb(52, 51, 51);
-} 
+}
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -152,7 +133,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-
   .filters {
     padding: 20px;
   }
@@ -162,21 +142,19 @@ footer p {
   .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
   }
-  
+
   .filters select,
   .filters button {
     font-size: 1rem;
     padding: 10px;
   }
-  
+
   .filters {
     padding: 15px;
   }
-  
-  
+
   #results {
     grid-template-columns: 1fr;
   }
 }
 
-/******  ad73059b-f953-48de-845c-2757cd51072e  *******/

@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", onContent);
+
 function addPark(parkTypeName, parkTypeSelect) {
     parkTypeSelect.appendChild(new Option(parkTypeName));
 }
@@ -40,13 +42,16 @@ function renderParks(){
 function onContent() {
     const parkTypeSelect = document.getElementById("parkTypeSelect");
     const parkLocationSelect = document.getElementById("parkLocationSelect");
+    const filterButton = document.getElementById("filterButton");  // Ensure this ID is correct
     const results = document.getElementById("results");
+
     parkTypesArray.forEach(parkTypeName => addPark(parkTypeName, parkTypeSelect));
-    locationsArray.forEach(parkLocationName => addLocation(parkLocationName, parkLocationSelect))
-    renderParks();
-    filterButton.addEventListener("click", renderParks);
-    parkTypeSelect.addEventListener("change", renderParks);
-    parkLocationSelect.addEventListener("change", renderParks);
+    locationsArray.forEach(parkLocationName => addLocation(parkLocationName, parkLocationSelect));
+
+    // Call renderParks only when filterButton is clicked
+    filterButton.addEventListener("click", () => {
+        results.innerHTML = ""; //clear away the old
+        renderParks();
+    });
 }
 
-document.addEventListener("DOMContentLoaded", onContent);
