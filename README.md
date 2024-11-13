@@ -10,4 +10,5 @@ Whether you're planning your next trip or looking for inspiration, this website 
 ![alt text](<my_images/readme_img2/Screenshot 2024-11-08 at 9.46.02 AM.png>)
 ![alt text](<my_images/readme_img2/Screenshot 2024-11-08 at 9.46.48 AM.png>)
 ![alt text](<my_images/readme_img2/Screenshot 2024-11-08 at 9.46.53 AM.png>)
-![alt text](</Users/baddgyalq/LearnToCode/Enjoy-The-Outdoors/my_images/readme_img2/Screenshot 2024-11-08 at 9.47.02 AM.png>)
+![alt text](<my_images/readme_img2/Screenshot 2024-11-08 at 9.47.02 AM.png>)
+![alt text](<my_images/readme_img2/Screenshot 2024-11-13 at 10.05.58 AM.png>)
