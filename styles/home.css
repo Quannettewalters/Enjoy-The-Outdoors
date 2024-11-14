@@ -120,21 +120,8 @@ h2 {
   font-weight: 600;
 }
 
-Styles
-  for
-  the
-  text
-  within
-  the
-  container
-  element
-  and
-  center
-  the
-  text
-  horizontally.
-  .container
-  p {
+/* Styles for the text within the container element and center the text horizontally. */
+.container p {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #7f8c8d;
